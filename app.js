@@ -17,14 +17,14 @@ function calculoChocoRana() {
     cantidadDeChocoRana = document.getElementById("cantidadChocoRana").value
     precioChocoRanaTotal = cantidadDeChocoRana * precioChocoRana
     document.getElementById("escribirChocoRana").innerHTML = 
-    `Si pedís ${cantidadDeChocoRana} chocoranas sale $ ${precioChocoRanaTotal}`
+    `Si pedís ${cantidadDeChocoRana} alfajores de chocolate sale $ ${precioChocoRanaTotal}`
 }
 
 function calculoCocoRana() {
     cantidadDeCocoRana = document.getElementById("cantidadCocoRana").value
     precioCocoRanaTotal = cantidadDeCocoRana * precioCocoRana
     document.getElementById("escribirCocoRana").innerHTML = 
-    `Si pedís ${cantidadDeCocoRana} cocoranas sale $  ${precioCocoRanaTotal}`
+    `Si pedís ${cantidadDeCocoRana} alfajores de coco y chocolate sale $  ${precioCocoRanaTotal}`
 }
 
 function calculoMaicena() {
@@ -44,13 +44,13 @@ function escribirPedido() {
     if (cantidadDeChocoRana == 0 || cantidadDeChocoRana == null  ) { 
         texto_chocoranas = ""
     }else{
-       texto_chocoranas = `${cantidadDeChocoRana} chocoranas son $ ${precioChocoRanaTotal} <br/>`
+       texto_chocoranas = `${cantidadDeChocoRana} alfajores de chocolate son $ ${precioChocoRanaTotal} <br/>`
     }
 
     if (cantidadDeCocoRana == 0 || cantidadDeCocoRana == null  ) { 
         texto_cocoranas = ""
     }else{
-       texto_cocoranas = `${cantidadDeCocoRana} cocoranas son $ ${precioCocoRanaTotal} <br/>`
+       texto_cocoranas = `${cantidadDeCocoRana} alfajores de coco y chocolate son $ ${precioCocoRanaTotal} <br/>`
     }
 
     

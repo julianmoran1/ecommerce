@@ -3,7 +3,7 @@ let productos = [
     "idinputcantidad": "cantidadChocoRana",
     "idescribir": "escribirChocoRana",
     "idboton": "pedirChocoRana",
-    "nombre": "Choco Rana",
+    "nombre": "Alfajor de chocolate",
     "imagen": "img/choco-rana.jpg",
     "descripcion": "Tremendo alfajor de puro chocolate",
     "precio": 55
@@ -12,7 +12,7 @@ let productos = [
     "idinputcantidad": "cantidadCocoRana",
     "idescribir": "escribirCocoRana",
     "idboton": "pedirCocoRana",
-    "nombre": "Coco Rana",
+    "nombre": "Alfajor de coco y chocolate",
     "imagen": "img/coco-rana.jpg",
     "descripcion": "Alto alfajor de chocolate y coco",
     "precio": 50
